@@ -12,6 +12,9 @@ class pattern:
           for i in range(5,0,-1):
                print()
                print("*"*i)
+     def simple5(self):
+          for i in range(0,100):
+               print(i)          
                
           
    
@@ -20,6 +23,7 @@ obj.simple()
 obj.simple2()
 obj.simple3()
 obj.simple4()
+obj.simple5()
 
 
 
