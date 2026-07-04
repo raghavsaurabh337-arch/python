@@ -10,6 +10,12 @@ class pattren  :
                for j in range(1,6):
                     print("*", end=" ")
                print()
+
+     def half(self):
+          for i in range(1,6):
+             
+                print("*"* i )
 obj=pattren()
-obj.five()
-obj.five_by_five()
+# obj.five()
+# obj.five_by_five()
+obj.half()
