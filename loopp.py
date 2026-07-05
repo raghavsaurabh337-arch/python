@@ -2,10 +2,10 @@ for i in range(1,20):
      print(i)
 
 class pattren  :
-     def five(self):
+     def star(self):
           for i in range(1,6):
                print("*")
-     def five_by_five(self):
+     def squareStar(self):
           for i in range(1,6):
                for j in range(1,6):
                     print("*", end=" ")
@@ -16,6 +16,6 @@ class pattren  :
              
                 print("*"* i )
 obj=pattren()
-# obj.five()
-# obj.five_by_five()
+# obj.star()
+# obj.squareStar()
 obj.half()
